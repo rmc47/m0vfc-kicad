@@ -1,0 +1,133 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 61729-0021BLF
+#/2335625/34946/2.44/6/4/Connector
+DEF 61729-0021BLF J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "61729-0021BLF" 850 200 50 H V L CNN
+F2 "617290021BLF" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/61729-0021BLF.pdf" 850 0 50 H I L CNN
+F4 "USB Connectors USB RECPT B TYPE" 850 -100 50 H I L CNN "Description"
+F5 "11.5" 850 -200 50 H I L CNN "Height"
+F6 "649-61729-0021BLF" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=649-61729-0021BLF" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "61729-0021BLF" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 U
+X 3 3 0 -100 200 R 50 50 0 0 U
+X MH1 MH1 0 -200 200 R 50 50 0 0 U
+X 2 2 1000 0 200 L 50 50 0 0 U
+X 4 4 1000 -100 200 L 50 50 0 0 U
+X MH2 MH2 1000 -200 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model OPA991SIDBVR
+#/12847312/34946/2.49/6/3/Integrated Circuit
+DEF OPA991SIDBVR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "OPA991SIDBVR" 850 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 850 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/opa991.pdf?ts=1607603409077&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DOPA991SIDBVR" 850 0 50 H I L CNN
+F4 "Operational Amplifiers - Op Amps 40-V, single 4.5MHz, rail-to-rail input/output, low-offset-voltage, low-noise op amp 6-SOT-23 -40 to 125" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "OPA991SIDBVR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-OPA991SIDBVR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA991SIDBVR?qs=yqaQSyyJnNhLx3IIIDzOlQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "OPA991SIDBVR" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/opa991sidbvr/texas-instruments" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X V- 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X V+ 6 1000 0 200 L 50 50 0 0 P
+X NC 5 1000 -100 200 L 50 50 0 0 N
+X -IN 4 1000 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model OPA2991IDDFR
+#/13194998/34946/2.49/8/3/Integrated Circuit
+DEF OPA2991IDDFR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "OPA2991IDDFR" 950 200 50 H V L CNN
+F2 "SOT65P280X110-8N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Operational Amplifiers - Op Amps 40-V, dual 4.5MHz, rail-to-rail input/output, low-offset-voltage, low-noise op amp" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "595-OPA2991IDDFR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA2991IDDFR?qs=yqaQSyyJnNi%252BtD1kJU%252BJXw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "OPA2991IDDFR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT1 1 0 0 200 R 50 50 0 0 P
+X IN1- 2 0 -100 200 R 50 50 0 0 P
+X IN1+ 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X IN2+ 5 1100 0 200 L 50 50 0 0 P
+X IN2- 6 1100 -100 200 L 50 50 0 0 P
+X OUT2 7 1100 -200 200 L 50 50 0 0 P
+X V+ 8 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1240S08-U
+#/1322359/34946/2.49/8/3/Integrated Circuit
+DEF 1240S08-U IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "1240S08-U" 950 200 50 H V L CNN
+F2 "SOIC127P600X173-8N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Audio Amplifiers Balanced Input Line Receiver 0dB SO-8" 950 -100 50 H I L CNN "Description"
+F5 "1.73" 950 -200 50 H I L CNN "Height"
+F6 "887-1240S08-U" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/THAT/1240S08-U/?qs=9Udfh7QmL4sgjCIebUlu%252Bw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "THAT CORPORATION" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1240S08-U" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X REF 1 0 0 200 R 50 50 0 0 P
+X IN- 2 0 -100 200 R 50 50 0 0 P
+X IN+ 3 0 -200 200 R 50 50 0 0 P
+X VEE 4 0 -300 200 R 50 50 0 0 P
+X NC 8 1100 0 200 L 50 50 0 0 N
+X VCC 7 1100 -100 200 L 50 50 0 0 P
+X VOUT 6 1100 -200 200 L 50 50 0 0 P
+X SENSE 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

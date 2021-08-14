@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EE2-5NU
+D Relay Miniature Kemet DPDT
+K Miniature Relay Dual Pole DPDT Kemet SMD
+F https://www.mouser.co.uk/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
+$ENDCMP
+#
+$CMP IRLD014PBF
+D 50V Vds, 0.22A Id, N-channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
 #End Doc Library
